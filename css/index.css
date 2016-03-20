@@ -1,0 +1,281 @@
+*{
+	cursor: default;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/bg.jpg); 
+	background-position: center top;
+}
+.senceback{
+	width: 600px;
+	height: 600px;
+	border: 1px solid block;
+	box-shadow: 0 0 3px #333;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+}
+.sence{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+}
+.sencesnake{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.odd{
+	width: 18px;
+	height: 18px;
+	float: left;
+	border: 1px solid white;
+	background: #d7ff31;
+}
+.even{
+	width: 18px;
+	height: 18px;
+	float: left;
+	border: 1px solid white;
+	background: #81ff21;
+}
+.snake{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #00a700;
+	margin: 2px;
+}
+.shetoul{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin: 2px;
+	background-image: url(../image/shetoul.png);
+}
+.shetour{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin: 2px;
+	background-image: url(../image/shetour.png);
+}
+.shetout{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin: 2px;
+	background-image: url(../image/shetout.png);
+}
+.shetoub{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin: 2px;
+	background-image: url(../image/shetoub.png);
+}
+.food{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: red;
+	margin: 2px;
+}
+.starts{
+	width: 336px;
+	height: 189px;
+	position: absolute;
+	left: 50%;
+	margin-left: -168px;
+	top: 20%;
+	background-image: url(../image/start.png);
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.over{
+	width: 410px;
+	height: 110px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	margin-left: -205px;
+	background-image: url(../image/over.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: none;
+}
+.again{
+	width: 234px;
+	height: 104px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -117px;
+	background-image: url(../image/again.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: none;
+	cursor: pointer;
+}
+.start{
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	background-image: url(../image/st.png);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	left: 50%;
+	margin-left: -55px;
+	top: 60%;
+}
+
+@media(max-width: 450px){
+	.senceback{
+		width: 300px;
+		height: 300px;
+		border: 1px solid block;
+		box-shadow: 0 0 3px #333;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		margin: auto;
+	}
+
+	.sence{
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	.sencesnake{
+		width: 10px;
+		height: 10px;
+		float: left;
+	}
+	.odd{
+		width: 8px;
+		height: 8px;
+		float: left;
+		border: 1px solid white;
+		background: #d7ff31;
+	}
+	.even{
+		width: 8px;
+		height: 8px;
+		float: left;
+		border: 1px solid white;
+		background: #81ff21;
+	}
+	.snake{
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: #00a700;
+		margin: 1px;
+	}
+	.shetoul{
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		margin: 1px;
+		background-size: cover;
+		background-repeat: no-repeat; 
+		background-image: url(../image/shetoul.png);
+	}
+	.shetour{
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		margin: 1px;
+		background-repeat: no-repeat; 
+		background-image: url(../image/shetour.png);
+		background-size: cover;
+	}
+	.shetout{
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		margin: 1px;
+		background-size: cover;
+		background-repeat: no-repeat; 
+		background-image: url(../image/shetout.png);
+	}
+	.shetoub{
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		margin: 1px;
+		background-size: cover;
+		background-repeat: no-repeat; 
+		background-image: url(../image/shetoub.png);
+	}
+	.food{
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: red;
+		margin: 1px;
+	}
+	.starts{
+		width: 118px;
+		height: 94px;
+		position: absolute;
+		left: 50%;
+		margin-left: -59px;
+		top: 30%;
+		background-image: url(../image/start.png);
+		background-size: 118px 94px;
+		background-repeat: no-repeat; 
+	}
+	.over{
+		width: 205px;
+		height: 55px;
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		margin-left: -102px;
+		background-image: url(../image/over.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: none;
+	}
+	.again{
+		width: 117px;
+		height: 52px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -58px;
+		background-image: url(../image/again.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: none;
+		cursor: pointer;
+	}
+	.start{
+		width: 55px;
+		height: 55px;
+		position: absolute;
+		background-image: url(../image/st.png);
+		background-size: cover;
+		background-repeat: no-repeat; 
+		left: 50%;
+		margin-left: -27px;
+		top: 55%;
+	}
+}
